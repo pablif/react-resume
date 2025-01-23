@@ -1,4 +1,4 @@
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=pablif_react-resume&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=pablif_react-resume)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=pablif_react-resume&metric=coverage)](https://sonarcloud.io/summary/new_code?id=pablif_react-resume)
 
 
 # React Resume for GitHub Pages
