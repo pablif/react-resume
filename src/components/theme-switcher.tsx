@@ -33,9 +33,8 @@ const ThemeSwitcher = (props: ThemeSwitcherProps) => {
 
     if (props.enabled) {
         return (
-            <div
+            <button
                 className='theme-switcher'
-                role='button' 
                 title={label}
                 aria-label={label}
                 tabIndex='0'
@@ -46,7 +45,7 @@ const ThemeSwitcher = (props: ThemeSwitcherProps) => {
                         {matchesTheme(props.currentTheme, Theme.LIGHT) ? 'dark_mode' : 'light_mode'}
                     </i>
                 </span>
-            </div>
+            </button>
         );
     } else {
         return '';
