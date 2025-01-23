@@ -22,7 +22,7 @@ const Header = ({ resumeInfo }: HeaderProps) => {
                 : <a href={link.url} target='blank'>{link.name}</a>
             }
         </span>
-    ).reduce((prev, curr) => [prev, ' | ', curr]);
+    ).reduce((prev, curr) => [prev, ' | ', curr],0);
 
     return (
         <header>
