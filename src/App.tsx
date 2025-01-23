@@ -19,7 +19,7 @@ const THEME_SWITCHER_MODE: ThemeSwitcherMode = ThemeSwitcherMode.SWITCHABLE;
 
 function App() {
   const [theme, setTheme] = React.useState(
-    localStorage.getItem('theme') || ''
+    localStorage.getItem('theme') ?? ''
   );
   React.useEffect(() => {
     localStorage.setItem('theme', theme);
