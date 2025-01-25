@@ -1,5 +1,6 @@
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=pablif_react-resume&metric=coverage)](https://sonarcloud.io/summary/new_code?id=pablif_react-resume)
 
+
 # React Resume for GitHub Pages
 
 Ever thought about making your own resume website? Turned off by unnecessarily complicated templates? Enjoy bragging about how your site is
